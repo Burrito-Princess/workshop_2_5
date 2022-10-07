@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from</title>
+    <link href="./assets/syle.css" rel="stylesheet">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <!-- start form one -->
+    <div id="container">
+        <h1>Fields for a HTML form</h1>
+        <div id="formbackground">
+        <form>
+            <fieldset>
+                <legend><h2>Text fields</h2></legend>
+                <p><label for="firstname"> name:</label><input type="text" name="first_name" /></p>
+                <p><label for="lastname">Last name:</label><input type="text" name="last_name" /></p>
+                <p><label for="password">Password</label><input type="text" name="pwd" />&nbsp;&nbsp;</p>
+            </fieldset>
+
+            <fieldset>
+                <legend><h2>Radio buttons</h2></legend>
+                <p><input type="radio" name="gender" value="man">Man</p>
+                <p><input type="radio" name="gender" value="woman">Woman</p>
+                <p><input type="radio" name="gender" value="other">Other</p>
+            </fieldset>
+            
+            <fieldset>
+                <legend><h2>Checkboxes</h2></legend>
+                <p><input type="checkbox" name="vehicle" value="bike">Bike</p>
+                <p><input type="checkbox" name="vehicle" value="car">Car</p>
+            </fieldset>
+
+            <fieldset>
+                <legend><h2>Dropdown menues</h2></legend>
+                <p><select name="Balletdancers">
+                    <option value="Martha Graham">Martha Graham</option>
+                    <option value="Charlotta Grisi">Charlotta Grisi</option>
+                    <option value="Agrippina Veganova" selected="selected">Agrippina Veganova</option>
+                    <option value="Nathalie Portman">Nathalie Portman</option>
+                </select></p>
+            </fieldset>
+
+            <fieldset>
+                <legend><h2>Textarea</h2></legend>
+                <p><textarea rows="7" cols="25" name="additions"></textarea></p>
+            </fieldset>
+            
+            <fieldset>
+                <legend><h2>sumbit button</h2></legend>
+                <p><input type="submit" value="send"></p>
+            </fieldset>
+            <br>
+            <br>
+        </form>
+    </div>
+    </div>
+
+    <!-- end form one -->
+
+    <!-- start form two -->
+    <div id="container2">
+        <div id="formbackground2">
+        <form>
+        <fieldset>
+            <legend><h2>Send a message</h2></legend>
+                <p><input type="text" name="firstname" placeholder="first name*">&nbsp;&nbsp;<input type="text" name="lastname" placeholder="last name*"></p>
+                <p><input type="text" name="email" placeholder="e-mail address*">&nbsp;&nbsp;<input type="text" name="website" placeholder="website"></p>
+                <p><textarea rows="7" cols="35" name="message" placeholder="message*"></textarea></p>
+                <p id="submitbutton"><input type="submit" value="send"></p>
+        </fieldset>
+        <br>
+        <br>
+        </from>
+    </div>
+    </div>
+    <!-- end form two -->
+</body>
+</html>
